@@ -1,0 +1,88 @@
+/* Settings */
+.system-settings{
+	width:100%;
+}
+	.system-settings td p label{
+		display:inline;
+	}
+	.system-settings input[type=text]{
+		width:300px;
+	}
+	.system-settings textarea{
+		height:100px;
+		width:402px;
+		padding:2px;
+	}
+	.system-settings td{
+		vertical-align:top;
+		padding-bottom:10px;
+	}
+	.system-settings .col1{
+		width:20%;
+		padding-top:3px;
+	}
+	.system-settings .col2{
+		width:80%;
+	}
+		.system-settings .col2 p{
+			margin:0;padding:0;
+			line-height:normal;
+		}
+
+#sys-info{	
+}
+	#sys-info hr{display:none;padding:0;margin:0;border:none;}		
+	#sys-info table{
+		width:100%;
+		border:1px solid #DFDFDF;
+	}
+	#sys-info div h1, #sys-info div h2{
+		text-align:left;		
+	}		
+		#sys-info h1{
+			border-bottom:1px solid #D2D2D2;						
+			padding-bottom:2px;
+			color:#5A5A5A;
+			margin-bottom:10px;
+		}
+		#sys-info h2{
+			color:#3A8000;
+			margin-bottom:5px;
+		}
+
+	#sys-info table{
+		width:100%;
+		border:1px solid #DFDFDF;
+	}
+	#sys-info table td, #sys-info table th {
+		border:0;
+		font-size:13px;
+		vertical-align:top;
+		padding:5px;
+	}
+
+	#sys-info .h{
+		background-color:#FFFFFF;
+	}
+	#sys-info tr.h th{
+		text-align:left !important;
+		background-color:#E0E0E0;
+		padding:5px;
+		font-size:13px;
+		text-shadow:0 1px 0 rgba(255, 255, 255, 0.8);
+		font-weight:bold;
+	}
+		#sys-info .h h1{
+			border-bottom:0;
+			margin:0;padding:0;
+		}
+	#sys-info .e{
+		background-color:#EFEFEF;
+		border-right:1px solid #DFDFDF;
+		width:30%;
+		font-size:13px;
+	}
+	#sys-info .v{
+		background-color:#FFFFFF;
+		font-style:italic;
+	}

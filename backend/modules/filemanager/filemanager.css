@@ -1,0 +1,112 @@
+#gallery-viewer h2{
+	border-bottom:1px solid #D2D2D2;
+	color:#5A5A5A;
+	font-size:20px;
+	margin-bottom:10px;
+	padding-bottom:5px;
+}
+#gallery-viewer #breadcrumb{
+	padding-bottom:10px;
+}
+	#gallery-viewer #breadcrumb .sep{
+		padding:0 5px;
+		font-weight:bold;
+	}
+#gallery-viewer span.bold{
+	font-weight:bold;
+}
+#directory{
+	width:100%;
+	border:1px solid #DFDFDF;
+}
+	#directory tr.dir{
+		background-color:#FFFFFF;
+	}
+		#directory tr.dir:hover{
+			background-color:#EFF5FD;
+		}
+	#directory th,#directory td{
+		text-align:left;
+		padding-left:15px;
+		font-size:1em;
+	}
+	#directory th{
+		background:url('../../images/grad-1.png') repeat-x top left;
+		text-shadow:0 1px 0 rgba(255, 255, 255, 0.8);
+		padding:5px 0 5px 15px;
+		border-right:1px solid #DFDFDF;
+	}
+	#directory td{
+		border:none;
+		padding:3px 0 3px 15px;
+	}
+		#directory .col1{
+			width:50%;
+		}
+			#directory .col1 a{
+				color:#333333;
+			}
+				#directory .col1 a:hover{
+					text-decoration:none;
+					color:#D54E21;
+				}
+		#directory .col2{
+			width:10%;
+		}
+		#directory .col3{
+			width:20%;
+		}
+		#directory .col4{
+			width:20%;
+		}
+		#directory .col5{
+			width:100%;
+			padding:5px 0 5px 10px;
+			border-left:none;
+		}
+		#directory .col6{
+			width:100%;
+		}
+#direxplorer{
+	height:600px;
+	overflow:auto;
+	border:1px solid #DFDFDF;
+}
+
+#file-uploader{
+	width:100%;
+}
+	#file-uploader p{
+		padding:0 0 5px 0;margin:0;
+	}
+	#file-uploader td{
+		vertical-align:top;
+	}	
+		#file-uploader .dirs{
+			margin-top:5px;
+			overflow:auto;
+			height:370px;
+			padding:10px 5px;
+		}
+			#file-uploader .dirs li.gallery{
+				padding:5px;
+				border:1px solid #FFFFFF;
+				color:#5A5A5A;
+			}
+			#file-uploader .dirs li.gallery:hover{						
+				background-color:#EAF2FA;
+				border:1px solid #B8D6FB;
+				text-decoration:none;
+			}
+				#file-uploader .dirs li.gallery img{
+					border:1px solid #AAAAAA;
+					height:120px;
+					width:120px;
+					display:block;
+					float:left;							
+				}
+				#file-uploader .dirs li.gallery .image-info{
+					padding-left:10px;
+					float:left;							
+					width:560px;
+				}

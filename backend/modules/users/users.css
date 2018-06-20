@@ -1,0 +1,72 @@
+
+/* Editor */
+#user-fields{
+	width:600px;
+}
+	#user-fields td{
+		vertical-align:top;
+	}
+	#user-fields .col1{
+		width:150px;
+	}
+	#user-fields .col2{
+		width:450px;
+	}
+	#user-fields .fields{
+		width:250px;
+		margin-bottom:8px;
+	}
+	
+	#ajax_user_name .overlay{
+		background-color:#FBFBFB;
+		border:1px solid #E5E5E5;
+		filter:alpha(opacity=60);
+		opacity:0.6;
+		width:246px;
+		padding:5px;
+		position:absolute;
+		height:14px;
+	}
+	#ajax_user_name .loader{
+		position:absolute;
+		margin-left:5px;
+		margin-top:5px;
+	}
+	#ajax_user_name .msg{
+		padding-left:20px;
+	}
+
+/* Viewer*/
+#users-viewer .col1{
+	width:5%;
+	text-align:center;
+}
+#users-viewer .col2{
+	width:75%;
+}
+#users-viewer .col3{
+	width:20%
+}
+#users-viewer .for-activation{
+	background-color:#FFFFD4;
+}
+#users-viewer .disabled{
+	background-color:#FFD4FF;
+}
+#users-viewer .title{
+	font-size:14px;
+	font-weight:bold;
+	
+}
+	#users-viewer .title a{color:#3A8000;}
+	#users-viewer .title a:hover{
+		color:#00AE1D;
+		text-decoration:underline;
+	}
+	
+#users-viewer .control{font-size:12px;}
+	#users-viewer .control a{color:#0066CC;}
+	
+#users-viewer .status{font-weight:bold;}
+	
+	

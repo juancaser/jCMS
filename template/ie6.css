@@ -1,0 +1,66 @@
+
+#header .the-left{
+	padding:20px 0 0 20px;
+}
+	#header .the-left .email{
+		margin-top:10px;
+	}
+	#header .the-left .phone{		
+		margin-top:10px;
+	}
+	#header .the-left img{
+		margin-top:0;
+	}
+
+#register table{
+	width:90%;
+	margin:0 15px 10px  15px;
+}
+#login form .login .container {
+    padding: 15px 10px 15px 15px;
+}
+#login form .login .text_field,#login form .login #email{
+    width: 95%;
+	background-color: #FBFBFB;
+	border: 1px solid #E5E5E5;
+	padding: 3px;
+}
+.input-box{
+	border:1px solid #E5E5E5;
+	background-color:#FBFBFB;
+	padding:3px;
+}
+.button{
+	border:1px solid #BFBFBF;
+	padding:5px 15px;
+	background:url('images/white-grad.png') repeat-x top left;
+	text-shadow:0 1px 0 rgba(255, 255, 255, 0.8);
+	font-size:14px;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	-khtml-border-radius:18px;
+	border-radius:18px;
+}
+
+.inner {
+    width:775px;
+	padding:0;margin:0;
+}
+	#product .side .image {
+		width: 250px;
+		padding:0;margin:0;
+	}
+	#product .content {
+		padding-left:10px;
+		width:480px;
+	}
+	/*#product #product_calculator{
+		width:100px;
+		
+	}*/
+	
+.jbox .jbox-ui-header .jbox-ui-toggle{
+	padding:11px 10px 0 10px;
+	height:17px;
+	overflow:hidden;
+}

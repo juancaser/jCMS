@@ -1,0 +1,160 @@
+	
+	/* Editor */
+	#page-editor #title{
+		width:99%;
+		font-size:20px;
+	}
+	#page-editor .slug-caption{font-weight:bold;}
+	#page-editor #page-slug{font-style:italic;}
+	#page-editor #edit-slug input[type=button],#page-editor #view-page input[type=button]{
+		font-size:11px;
+		padding:2px 5px;
+	}
+
+	
+	#page-editor .box{margin-bottom:10px;}
+		#page-editor #custom_fields	table{
+			margin-top:10px;
+		}
+		#page-editor #custom_fields	.button{
+			font-size:12px;
+			text-transform:uppercase;
+			padding:2px 15px;
+		}
+		#page-editor #custom_fields td{vertical-align:top;}
+			#page-editor #custom_fields .col1{width:40%;}
+			#page-editor #custom_fields .col2{width:60%;}
+		#page-editor #custom_fields td input[type=text]{
+			width:90%;
+		}
+		#page-editor #custom_fields textarea{
+			width:99%;
+			height:50px;
+		}
+	
+	/*#filemanager{
+		position:absolute;
+		z-index:1;
+		top:0;left:0;
+		display:none;
+	}
+		#filemanager .box{
+			position:absolute;
+			height:550px;
+			width:900px;
+			background: url('../../images/bg-trans.png') repeat top left;
+			padding:15px;
+			margin: auto;
+			left:0; right:0;
+			top:0; bottom:0;
+			-moz-border-radius:10px;
+			-khtml-border-radius:10px;
+			-webkit-border-radius:10px;
+			border-radius:10px;
+		}
+		#filemanager .inner{
+			background-color:#FFFFFF;
+			height:96%;			
+		}
+			#filemanager .inner h2{
+				color:#5A5A5A;
+				padding:0;
+				font-size:18px;
+				font-weight:normal;
+				border-bottom:1px solid #D2D2D2;
+				margin-bottom:10px;
+				padding-bottom:5px;
+			}*/
+			#filemanager .inner #tabs{
+				height:90%;
+				margin-bottom:10px;
+				font-size:13px;
+			}
+				.ui-tabs .ui-tabs-panel{
+					padding:0;
+				}
+				#filemanager #tabs .dirs{
+					margin-top:5px;
+					overflow:auto;
+					height:205px;
+					padding:10px 5px;
+				}
+					#filemanager #tabs .dirs li.gallery{
+						padding:5px;
+						border:1px solid #FFFFFF;
+						color:#5A5A5A;
+					}
+					#filemanager #tabs .dirs li.gallery:hover{						
+						background-color:#EAF2FA;
+						border:1px solid #B8D6FB;
+						text-decoration:none;
+					}
+						#filemanager #tabs .dirs li.gallery img{
+							border:1px solid #AAAAAA;
+							height:120px;
+							width:120px;
+							display:block;
+							float:left;							
+						}
+						#filemanager #tabs .dirs li.gallery .image-info{
+							padding-left:10px;
+							float:left;							
+						}
+						.ui-dialog-buttonpane{
+							border-top:none;
+						}
+						.tabs div.ui-tabs-panel {
+							font-size: 13px;
+							padding:10px;
+						}
+						#gallery-album{
+							padding:0 0 10px 0;
+						}
+	
+		
+	
+	/* Viewer*/
+	#page-viewer .col1{
+		width:5%;
+		text-align:center;
+	}
+	#page-viewer .col2{
+		width:75%;
+	}
+	#page-viewer .col3{
+		width:20%
+	}
+	#page-viewer .title{
+		font-size:14px;
+		font-weight:bold;
+		
+	}
+		#page-viewer .title a{color:#3A8000;}
+		#page-viewer .title a:hover{
+			color:#00AE1D;
+			text-decoration:underline;
+		}
+		
+	#page-viewer .control{font-size:12px;}
+		#page-viewer .control a{color:#0066CC;}
+		
+	#page-viewer .status{font-weight:bold;}
+
+.page-settings{
+	width:100%;
+}
+	.page-settings td,
+		.page-settings label{
+		font-size:12px;
+	}
+	
+	.page-settings .col1{
+		width:20%;
+	}
+	.page-settings .col2{
+		width:80%;
+	}
+	
+#tabs2, #tabs2 label{
+	font-size:12px;
+}

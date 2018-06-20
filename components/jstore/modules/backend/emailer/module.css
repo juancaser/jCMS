@@ -1,0 +1,18 @@
+/* Settings */
+#template-viewer{}
+
+	#template-viewer table{
+		width:100%;
+	}
+		#template-viewer table .col1{
+			width:5%;
+		}
+		#template-viewer table .col2{
+			width:55%;
+		}
+		#template-viewer table .col3{
+			width:20%;
+		}
+		#template-viewer table .col4{
+			width:20%;
+		}

@@ -1,0 +1,20 @@
+/* Widgets */
+#widgets{}
+	#widgets .widget .title a{
+		font-size:11px;
+		color:#333333;
+	}
+		#widgets .widget .title a:hover{
+			color:#D54E21;
+			text-decoration:none;
+		}
+		#widgets .widget textarea{
+			width:99%;
+			height:100px;
+		}
+
+		#widgets .widget .wdgt-button{
+			padding:5px;
+			border-top:1px dotted #E5E5E5;
+		}
+		

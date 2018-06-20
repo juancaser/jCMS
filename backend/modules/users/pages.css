@@ -1,0 +1,110 @@
+/*#page{}
+	#page label{
+		font-size:1.1em;
+		padding-bottom:3px;
+	}
+	#page-viewer tr.subdir{
+		background-color:#C3C3C3;
+	}
+		#page-viewer tr.subdir td{
+			padding:10px;
+		}
+			#page-viewer tr.subdir td div{				
+				font-size:1.2em;
+				font-weight:normal;
+			}
+			#page-viewer tr.subdir td a{
+				font-size:1em;
+				font-weight:bold;
+			}
+			font-weight:bold;font-size:1em;
+		
+	#page-viewer td{
+		vertical-align:top;
+	}
+	
+		#page-viewer .col1{
+			width:5%;			
+		}
+		#page-viewer .col2{
+			width:60%;
+		}			
+			#page-viewer .col2 span.title{
+				display:block;
+			}
+				#page-viewer .col2 span.title a{
+					font-weight:bold;
+					}
+			#page-viewer .col2 span.control a{
+				font-size:1em;
+			}
+
+		#page-viewer .col3{
+			width:20%;
+		}
+		#page-viewer .col4{
+			width:15%;
+		}
+			#page-viewer .col4 span.date{
+				display:block;
+			}
+			#page-viewer .col4 span.status{
+				font-weight:bold;
+			}
+*/
+	
+	
+	/* Editor */
+	#page-editor #title{
+		width:99%;
+		font-size:20px;
+	}
+	#page-editor .slug-caption{font-weight:bold;}
+	#page-editor #page-slug{font-style:italic;}
+	#page-editor #edit-slug input[type=button],#page-editor #view-page input[type=button]{
+		font-size:11px;
+		padding:2px 5px;
+	}
+
+	
+	#page-editor .box{margin-top:10px;}
+	
+	#page-editor #custom_fields td{vertical-align:top;padding-bottom:40px;}
+		#page-editor #custom_fields .col1{width:40%;}
+		#page-editor #custom_fields .col2{width:60%;padding:0 5px 0 10px;}
+	#page-editor #custom_fields td input[type=text]{
+		width:90%;
+	}
+	#page-editor #custom_fields textarea{
+		width:99%;
+		height:50px;
+	}
+	
+	/* Viewer*/
+	#page-viewer .col1{
+		width:5%;
+		text-align:center;
+	}
+	#page-viewer .col2{
+		width:75%;
+	}
+	#page-viewer .col3{
+		width:20%
+	}
+	#page-viewer .title{
+		font-size:14px;
+		font-weight:bold;
+		
+	}
+		#page-viewer .title a{color:#3A8000;}
+		#page-viewer .title a:hover{
+			color:#00AE1D;
+			text-decoration:underline;
+		}
+		
+	#page-viewer .control{font-size:12px;}
+		#page-viewer .control a{color:#0066CC;}
+		
+	#page-viewer .status{font-weight:bold;}
+	
+	

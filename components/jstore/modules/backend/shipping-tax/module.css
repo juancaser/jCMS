@@ -1,0 +1,43 @@
+#tax-shipping{
+}
+	#tax-shipping .tab{
+		margin-left:10px;
+	}
+		#tax-shipping .tab li{
+			float:left;
+			margin-right:5px;
+		}
+			#tax-shipping .tab li a{
+				color:#333333;
+				display:block;
+				padding:5px 20px;
+				background-color:#E5E5E5;
+				border:1px solid #E5E5E5;
+				border-bottom:none;
+				text-decoration:none;
+				font-weight:bold;
+			}
+				#tax-shipping .tab li a:hover,
+					#tax-shipping .tab li.active a{
+					background-color:#FFFFFF;
+					color:#D54E21;
+				}
+	#tax-shipping .tab-content{
+		border:1px solid #E5E5E5;
+		padding:10px 10px 20px 10px;
+		margin-top:-1px;
+	}
+
+
+#tax-shipping .tab-content .ts-content{
+}
+	#tax-shipping .tab-content .ts-content .ts-header{
+		background-color:#E1E1E1;
+		padding:10px;
+	}
+		#tax-shipping .tab-content .ts-content .ts-header .button1{
+			padding:2px 10px;
+			font-size:12px;
+			text-transform:uppercase;
+		}
+

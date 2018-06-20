@@ -1,0 +1,58 @@
+/* Editor */
+#user-viewer{}
+	#user-viewer td{
+		vertical-align:top;
+	}
+		#user-viewer .col1{
+			width:5%;			
+		}
+		#user-viewer .col2{
+			width:50%;
+		}			
+		#user-viewer .col3{
+			width:20%;
+		}
+		#user-viewer .col4{
+			width:25%;
+		}
+	#user-viewer .avatar a{
+		height:48px;width:50px;
+		padding:5px;
+		border:1px solid #E5E5E5;
+		background-repeat:no-repeat;
+		background-position:50% 50%;
+		display:block;
+	}
+		#user-viewer .avatar-ghosts a{
+			background-image:url('../images/icon-ghosts-48.png');
+		}
+		#user-viewer .avatar-rockstar a{
+			background-image:url('../images/icon-rockstar-48.png');
+		}
+	#user-viewer .title{
+		padding-left:10px;
+	}
+		#user-viewer .title a{
+			font-weight:bold;
+			display:block;
+		}
+		#user-viewer .title span.list{
+			display:block;
+			font-size:1em;
+		}
+		
+#user-editor{}
+	#user-editor td{
+		padding-bottom:10px;
+	}
+	#user-editor label span{
+		display:block;
+		padding-bottom:3px;
+		font-size:1.1em;
+	}
+	#user-editor input[type=text]{
+		width:400px;
+	}
+	#user-editor input[type=password],#user-editor input.password{
+		width:300px;
+	}

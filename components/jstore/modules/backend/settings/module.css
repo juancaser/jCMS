@@ -1,0 +1,115 @@
+/* Settings */
+.system-settings{
+	width:100%;
+}
+	.system-settings td p label{
+		display:inline;
+	}
+	.system-settings input[type=text]{
+		width:400px;
+	}
+	.system-settings textarea{
+		height:50px;
+		width:402px;
+		padding:2px;
+	}
+	.system-settings h4{
+		border-bottom:1px dotted #E5E5E5;
+		padding-bottom:5px;
+	}
+	.system-settings td{
+		vertical-align:top;
+		padding-bottom:10px;
+	}
+	.system-settings .col1{
+		width:30%;
+		padding-top:1px;
+	}
+	.system-settings .col2{
+		width:70%;
+	}
+		.system-settings .col2 p{
+			margin:0;padding:0;
+			line-height:normal;
+		}
+
+#skype{
+	background:url('../../../images/skype.png') no-repeat 3% 50%;
+	padding-left:22px;
+}
+#ym{
+	background:url('../../../images/ym.png') no-repeat 3% 50%;
+	padding-left:22px;
+}
+#icq{
+	background:url('../../../images/icq.png') no-repeat 3% 50%;
+	padding-left:22px;
+}
+#aol{
+	background:url('../../../images/aim.png') no-repeat 3% 50%;
+	padding-left:22px;
+}
+#msn{
+	background:url('../../../images/msn.png') no-repeat 3% 50%;
+	padding-left:22px;
+}
+#gtalk{
+	background:url('../../../images/gtalk.png') no-repeat 3% 50%;
+	padding-left:22px;
+}
+
+
+	
+#layout{
+
+}
+	#layout h3,
+		#layout h3 a{
+		color:#333333;
+		font-size:13px;
+		border-bottom:none;
+		text-align:left;
+		margin:0;
+	}
+	#layout div.ui-accordion-content{
+		padding:10px 20px;	
+	}
+
+#home_page{}
+	#home_page .hp_sb{
+		float:left;
+		padding:0 15px 0 0;
+		width:150px;
+	}
+		#home_page .hp_sb input[type=button]{
+			font-size:12px;
+			padding:2px 5px;
+			text-transform:uppercase;
+		}
+		#home_page .hp_sb p{
+			font-size:12px;
+			margin-top:5px;
+		}
+	#home_page .hp_content{
+		float:left;
+		border:1px solid #E5E5E5;
+		background-color:#FBFBFB;
+		width:450px;
+		height:200px;
+		overflow:auto;
+	}
+		#home_page .hp_content ul{
+			list-style-type:none;
+			padding:0;margin:0;
+		}
+			#home_page .hp_content ul li{
+				cursor:pointer;cursor:hand;
+				padding:5px;
+			}
+			#home_page .hp_content ul li:hover{
+				background-color:#EFF5FD;
+				height:200px;
+			}
+				#home_page .hp_content ul li .title{
+					
+				}
